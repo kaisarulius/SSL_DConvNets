@@ -1,8 +1,4 @@
-﻿
-
-
-
-# SSL_DConvNets
+﻿# SSL_DConvNets
 
 ## [Co-occurrence Matrix Anlaysis based Semi-Supervised Trining for Obejct Detection]
 
@@ -53,4 +49,4 @@ In this paper, we propose Semi-Supervised Learning (SSL) based training methodol
 ### 4. Experiment result
 **Please see the paper for training details.**
 
-![alt text](.\images\result.png)
+![alt text](./images/result.png)
