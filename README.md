@@ -23,7 +23,7 @@ In this paper, we propose Semi-Supervised Learning (SSL) based training methodol
     1. Trianing 1 to train baseline detector using train17+val17 
 	    1. Overwrite folders in 'training1' to DConvNets folder
 	    2. Run with training script
-		> **Note:** If you use pre-trained network, please download from ()
+		> **Note:** If you use pre-trained network, please download from (<a href="https://drive.google.com/file/d/15-CFqF9em3y5w2QsZ92hYkWq0Fr0aIBI/view?usp=sharing"> link </a>)
 	      + For baseline netowrk, please use the model in ~\output\rfcn_dcn_800_1200_10epoch
 
     2. Testing 1 to obtain pseudo-labeling data from unlabeled17         
