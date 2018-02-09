@@ -19,7 +19,7 @@ In this paper, we propose Semi-Supervised Learning (SSL) based training methodol
 3. Download MS-COCO Dataset from COCO website (<a href="http://cocodataset.org/#download" target="_blank">link</a>)
 4. Add uncompressed COCO dataset to data folder (using symbolic link)
   >~\Deformable-ConvNets\data\coco
-5. Clone repository(<a href="https://github.com/kaisarulius/SSL_DConvNets" target="_blank">link</a>), copy & overwrite, and run
+5. Clone repository (<a href="https://github.com/kaisarulius/SSL_DConvNets" target="_blank">link</a>), copy & overwrite, and run
     1. Trianing 1 to train baseline detector using train17+val17 
 	    1. Overwrite folders in 'training1' to DConvNets folder
 	    2. Run with training script
