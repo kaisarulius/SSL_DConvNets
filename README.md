@@ -16,28 +16,28 @@ In this paper, we propose Semi-Supervised Learning (SSL) based training methodol
 ### 2. Instruction
 1. Install original Deformable ConvNets from git repository (<a href="https://github.com/msracver/Deformable-ConvNets" target="_blank">link</a>)
 2. Setup running environments and run demo program for DConvNets
-3. Download MS-COCO Dataset from COCO website(<a href="http://cocodataset.org/#download" target="_blank">link</a>)
+3. Download MS-COCO Dataset from COCO website (<a href="http://cocodataset.org/#download" target="_blank">link</a>)
 4. Add uncompressed COCO dataset to data folder (using symbolic link)
   >~\Deformable-ConvNets\data\coco
 5. Clone repository(<a href="https://github.com/kaisarulius/SSL_DConvNets" target="_blank">link</a>), copy & overwrite, and run
     1. Trianing 1 to train baseline detector using train17+val17 
 	    1. Overwrite folders in 'training1' to DConvNets folder
 	    2. Run with training script
-		> **Note:** If you use pre-trained network, please download from (<a href="https://drive.google.com/file/d/15-CFqF9em3y5w2QsZ92hYkWq0Fr0aIBI/view?usp=sharing"> link </a>)
+		> **Note:** If you use pre-trained network, please download from <a href="https://drive.google.com/file/d/15-CFqF9em3y5w2QsZ92hYkWq0Fr0aIBI/view?usp=sharing">link</a>
 	      + For baseline netowrk, please use the model in ~\output\rfcn_dcn_800_1200_10epoch
 
     2. Testing 1 to obtain pseudo-labeling data from unlabeled17         
 	    1. Overwrite folders in 'testing1' to DConvNets folder
 	    2. Run with testing script
-		> **Note:** If you use pre-extracted annotation file, please download from the <a href="https://drive.google.com/file/d/1eqI2CT2AQbcdRj-AHymACKbgzU4W9JPv/view?usp=sharing" target="_blank">link</a>.
+		> **Note:** If you use pre-extracted annotation file, please download from <a href="https://drive.google.com/file/d/1eqI2CT2AQbcdRj-AHymACKbgzU4W9JPv/view?usp=sharing" target="_blank">link</a>.
     3. Training 2 to train network with the proposed SSL method
-	    1. Download co_occurrence matrix(<a href="https://drive.google.com/open?id=1HQfHdfZBRN-eWerqoyyt1Nz8LL_Yu4vw" target="_blank">link</a>)
+	    1. Download co_occurrence matrix (<a href="https://drive.google.com/open?id=1HQfHdfZBRN-eWerqoyyt1Nz8LL_Yu4vw" target="_blank">link</a>)
 	    2. Overwrite folders in 'training2' to DConvNets folder
 	    3. Run with training script
     4. Testing 2 to obtain final results
 	    1. Overwrite folders in 'testing2' to DConvNets folder
 	    2. Run with testing script
-	    3. Upload test-dev2017 result to CodaLab evaluation website(<a href="https://competitions.codalab.org/competitions/5181" target="_blank">link</a>)
+	    3. Upload test-dev2017 result to CodaLab evaluation website (<a href="https://competitions.codalab.org/competitions/5181" target="_blank">link</a>)
       
 
 
