@@ -241,7 +241,7 @@ def pred_eval(predictor, test_data, imdb, cfg, vis=False, thresh=1e-3, logger=No
                 im_name = roidb[idx]['image']
                 im_name = im_name.rsplit("/", 1)
                 im_name = im_name[-1]                                
-                result = draw_all_detection2(data_dict['data'].asnumpy(), boxes_this_image, imdb.classes, 
+                result = draw_all_detection(data_dict['data'].asnumpy(), boxes_this_image, imdb.classes, 
                                             scales[delta], cfg, im_name, annotations, id_count, 
                                             nor_co_occur_matrix, row_max)
                 annotations = result['ann']
