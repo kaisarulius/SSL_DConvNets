@@ -44,7 +44,7 @@ In this paper, we propose Semi-Supervised Learning (SSL) based training methodol
 ### 3. Running script
 > For training: python ./rfcn/train_end2end.py —cfg ./experiments/rfcn/cfgs/resnet_v1_101_coco_trainval_rfcn_dcn_end2end_ohem.yaml
 
-> For testing: python ./rfcn/test.py —cfg ./experiments/rfcn/cfgs/resnet_v1_101_coco_trainval_rfcn_dcn_end2end_ohem.yaml --vis
+> For testing: python ./rfcn/test.py —cfg ./experiments/rfcn/cfgs/resnet_v1_101_coco_trainval_rfcn_dcn_end2end_ohem.yaml (for testing 1, please add --vis)
 
 ### 4. Experiment result
 **Please see the paper for training details.**
